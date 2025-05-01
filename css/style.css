@@ -75,7 +75,7 @@ body {
 
 .title {
     color: #F8F8F8;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 13px;
     font-weight: 600;
     font-size: 28px;
@@ -97,7 +97,7 @@ body {
     text-align: center;
     font-size: 16px;
     min-width: 380px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 
     animation-name: appear;
     animation-duration: 2s;
