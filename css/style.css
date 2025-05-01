@@ -208,6 +208,7 @@ body {
 
 .train {
     position: absolute;
+    overflow: hidden;
     width: 200%;
     bottom: 30px;
     transform: translateX(2000px);
