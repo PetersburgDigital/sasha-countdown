@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    min-height: 100vh;
+    height: 100vh;
     overflow: hidden;
     color: #F8F8F8;
 
@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 /*     max-width: 100vw; */
-    min-height: 100vh;
+    height: inherit;
     background-color: rgba(0, 0, 0, .0);
 
     animation-duration: 35s;
