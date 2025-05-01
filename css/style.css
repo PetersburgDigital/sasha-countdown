@@ -59,7 +59,12 @@ body {
 }
 
 .video__container {
-    max-width: 483px;
+/*     max-width: 483px; */
+    width: 100%;
+}
+
+.video {
+    width: 100%;
 }
 
 .image {
