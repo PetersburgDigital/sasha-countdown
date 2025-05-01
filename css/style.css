@@ -226,7 +226,7 @@ body {
 
 @keyframes balloon-launch {
     from {
-        transform: translateY(20%);
+        transform: translateY(-1%);
     }
 
     to {
