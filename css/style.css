@@ -63,13 +63,13 @@ body {
 }
 
 .video__container {
-/*     max-width: 483px; */
-    width: 100%;
+    max-width: 483px;
+/*     width: 100%; */
 }
 
-.video {
+/* .video {
     width: 100%;
-}
+} */
 
 .image {
     width: 100%;
@@ -254,8 +254,12 @@ body {
         padding: 15px;
     }
 
+    .video__container {
+        width: 100%;
+    }
+    
     .video {
-        width: 80vw;
+        width: 100%;
     }
 
     .title {
