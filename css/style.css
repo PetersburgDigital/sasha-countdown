@@ -274,6 +274,7 @@ body {
 
     .countdown {
         min-width: 100%;
+        gap: 4px;
         margin-bottom: 50px;
     }
 
