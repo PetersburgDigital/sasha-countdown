@@ -314,6 +314,16 @@ body {
         margin-bottom: 20px;
     }
 
+    @keyframes balloon-launch {
+        from {
+            transform: translateY(-1%);
+        }
+    
+        to {
+            transform: translateY(-400%);
+        }
+    }
+
     .copyright {
         font-size: 10px;
         text-align: center;
