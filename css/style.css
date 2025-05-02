@@ -310,8 +310,13 @@ body {
         padding: 9px 18px;
     }
 
+    .balloon-launch {
+        margin-bottom: 20px;
+    }
+
     .copyright {
         font-size: 10px;
+        text-align: center;
     }
 
 }
