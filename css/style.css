@@ -299,6 +299,11 @@ body {
         /* transform: translateX(600px); */
     }
 
+    .btns-wrap {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
     .btn {
         font-size: 12px;
         padding: 8px 14px;
