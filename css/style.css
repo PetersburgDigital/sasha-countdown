@@ -279,7 +279,7 @@ body {
     .countdown {
         justify-content: center;
         min-width: 100%;
-        gap: 2px;
+        gap: 4px;
         margin-bottom: 35px;
     }
 
@@ -317,7 +317,7 @@ body {
     }
 
     .balloon-launch {
-        margin-bottom: 20px;
+        margin-bottom: 8px;
     }
 
     @keyframes balloon-launch {
