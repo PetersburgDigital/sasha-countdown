@@ -278,13 +278,13 @@ body {
     }
 
     .countdown-item {
-        padding: 8px;
-        font-size: 12px;
+        padding: 12px;
+        font-size: 14px;
     }
 
-    .countdown-item h4 {
+/*     .countdown-item h4 {
         font-size: 32px;
-    }
+    } */
 
     .balloon {
         width: 80px;
