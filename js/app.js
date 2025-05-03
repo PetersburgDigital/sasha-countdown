@@ -141,7 +141,7 @@ function createBalloon() {
     let balloonImg = new Image (150, 322)
     balloonImg.src = generateBalloon()
     balloonImg.setAttribute('class', 'balloon')
-    balloonImg.style.left = Math.floor(Math.random() * window.innerWidth)  //+ 10 + 'px'
+    balloonImg.style.left = Math.floor(Math.random() * window.innerWidth)  - 10 + 'px'
     document.body.appendChild(balloonImg)
 }
 
