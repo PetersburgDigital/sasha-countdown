@@ -129,19 +129,13 @@ function generateBalloon() {
 
 balloonBtn.addEventListener('click', () => {
     createBalloon()
-    // let balloonImg = new Image (200, 250)
-    // balloonImg.src = generateBalloon()
-    // balloonImg.setAttribute('class', 'balloon')
-    // balloonImg.style.left = Math.floor(Math.random() * window.innerWidth)  + 10 + 'px'
-    // document.body.appendChild(balloonImg)
-    // balloonImg.style.transform = 'translateY(-200px)'
 })
 
 function createBalloon() {
     let balloonImg = new Image (150, 322)
     balloonImg.src = generateBalloon()
     balloonImg.setAttribute('class', 'balloon')
-    balloonImg.style.left = Math.floor(Math.random() * window.innerWidth)  + 4 + 'px'
+    balloonImg.style.left = Math.floor(Math.random() * window.innerWidth)  - 40 + 'px'
     document.body.appendChild(balloonImg)
 }
 
