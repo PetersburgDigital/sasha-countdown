@@ -85,12 +85,12 @@ function timer() {
         sleep(3200).then (() => {
             createBalloon()
         });
-        sleep(3600).then (() => {
-            createBalloon()
-        });
-        sleep(4000).then (() => {
-            createBalloon()
-        });
+        // sleep(3600).then (() => {
+        //     createBalloon()
+        // });
+        // sleep(4000).then (() => {
+        //     createBalloon()
+        // });
         }
 
         if (Seconds.textContent === '0') {
