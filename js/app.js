@@ -132,7 +132,7 @@ balloonBtn.addEventListener('click', () => {
     // let balloonImg = new Image (200, 250)
     // balloonImg.src = generateBalloon()
     // balloonImg.setAttribute('class', 'balloon')
-    // balloonImg.style.left = Math.floor(Math.random() * window.innerWidth) + 50 + 'px'
+    // balloonImg.style.left = Math.floor(Math.random() * window.innerWidth) + 10 + 'px'
     // document.body.appendChild(balloonImg)
     // balloonImg.style.transform = 'translateY(-200px)'
 })
