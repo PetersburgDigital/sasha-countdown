@@ -235,15 +235,15 @@ body {
 
 @keyframes train-moving {
     from {
-        transform: translateX(2000px)
+        transform: translateX(200%)
     }
 
     50% {
-        transform: translateX(100px)
+        transform: translateX(2%)
     }
 
     to {
-        transform: translateX(-2000px)
+        transform: translateX(-150%)
     }
 }
 
@@ -315,15 +315,15 @@ body {
 
     @keyframes train-moving {
         from {
-            transform: translateX(2000px)
+            transform: translateX(200%)
         }
     
         50% {
-            transform: translateX(30px)
+            transform: translateX(2%)
         }
     
         to {
-            transform: translateX(-2000px)
+            transform: translateX(-150%)
         }
     }
 
