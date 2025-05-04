@@ -113,9 +113,14 @@ function timer() {
 
                 // const countdown = document.querySelector('.countdown')
                 const balloonYears = document.querySelector('.balloon-years')
+                balloonYears.addEventListener('click', () => {
+                    video.removeAttribute('mute')
+                })
                 balloonYears.src = 'img/icon-balloon.png'
                 balloonYears.style.display = 'block'
                 // countdown.appendChild(balloonYears)
+
+                document.querySelector('.btns-wrap').style.marginTop = '30px'
             }
         }
     }
