@@ -233,7 +233,7 @@ body {
     animation-fill-mode: forwards;
 }
 
-@keyframes train-moving {
+/* @keyframes train-moving {
     from {
         transform: translateX(200%)
     }
@@ -244,7 +244,7 @@ body {
 
     to {
         transform: translateX(-150%)
-    }
+    } */
 }
 
 @keyframes balloon-launch {
