@@ -113,8 +113,15 @@ function timer() {
 
                 // const countdown = document.querySelector('.countdown')
                 const balloonYears = document.querySelector('.balloon-years')
-                balloonYears.addEventListener('click', () => {
+                let btnClicks = 0
+                btn.addEventListener('click', () => {
+                    btnClicks++
                     video.muted = false
+                    btn.textContent = 'Получить подарок 🎁'
+                    btn.style.textDecoration = 'underline'
+                    if (btnClicks > 1) {
+                        btn.setAttribute('href', 'https://music.yandex.com/users/y4ndex3ide/playlists/1010?utm_medium=copy_link')
+                    }
                 })
                 balloonYears.src = 'img/icon-balloon.png'
                 balloonYears.style.display = 'block'
