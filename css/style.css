@@ -98,6 +98,7 @@ body {
 }
 
 .countdown {
+    position: relative;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
@@ -137,6 +138,14 @@ body {
     font-size: 40px;
     color: #fe7494;
 }
+
+.balloon-years {
+        display: none;
+        position: absolute;
+        top: -13px;
+        width: inherit;
+        transform: translateX(-50%);
+    }
 
 .btns-wrap {
     display: flex;
@@ -276,7 +285,6 @@ body {
     }
 
     .countdown {
-        position: relative;
         justify-content: center;
         min-width: 100%;
         gap: 4px;
@@ -286,14 +294,6 @@ body {
     .countdown-item {
         padding: 12px;
         font-size: 14px;
-    }
-
-    .balloon-years {
-        display: none;
-        position: absolute;
-        top: -13px;
-        width: inherit;
-        transform: translateX(-50%);
     }
 
     /* .countdown-item h4 {
