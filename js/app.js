@@ -114,7 +114,7 @@ function timer() {
                 // const countdown = document.querySelector('.countdown')
                 const balloonYears = document.querySelector('.balloon-years')
                 balloonYears.addEventListener('click', () => {
-                    video.removeAttribute('muted')
+                    video.muted = false
                 })
                 balloonYears.src = 'img/icon-balloon.png'
                 balloonYears.style.display = 'block'
