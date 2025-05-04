@@ -53,7 +53,7 @@ function timer() {
         video.classList.remove('hidden')
         // video.autoplay = true
         // video.setAttribute('playsinline', '')
-        btn.setAttribute('href', 'https://music.yandex.com/users/y4ndex3ide/playlists/1010?utm_medium=copy_link')
+        // btn.setAttribute('href', 'https://music.yandex.com/users/y4ndex3ide/playlists/1010?utm_medium=copy_link')
 
         const train = document.querySelector('.train')
         train.style.animationName = 'train-moving'
@@ -110,6 +110,8 @@ function timer() {
                 playCount++
                 document.querySelector('.video').play()
                 document.querySelector('.video').setAttribute('playsinline', '')
+
+                btn.textContent = 'Включить звук 🔊'
 
                 // const countdown = document.querySelector('.countdown')
                 const balloonYears = document.querySelector('.balloon-years')
