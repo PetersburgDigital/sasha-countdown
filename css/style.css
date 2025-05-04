@@ -315,7 +315,7 @@ body {
 
     @keyframes train-moving {
         from {
-            transform: translateX(200%)
+            transform: translateX(2%)
         }
     
         50% {
@@ -323,7 +323,7 @@ body {
         }
     
         to {
-            transform: translateX(-150%)
+            transform: translateX(2%)
         }
     }
 
