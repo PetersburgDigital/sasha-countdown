@@ -102,9 +102,9 @@ function timer() {
             document.querySelector('.body__container').style.animationName = 'body-change'
             document.querySelector('.balloon-launch').style.animationName = 'balloon-btn'
 
-            if (window.innerWidth < 400) {
-                train.setAttribute('src', 'img/candles-train-mobile.gif')
-            }
+            // if (window.innerWidth < 400) {
+            //     train.setAttribute('src', 'img/candles-train-mobile.gif')
+            // }
             
             if (playCount === 0) {
                 playCount++
